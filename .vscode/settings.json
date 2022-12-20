@@ -1,0 +1,8 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "Fira code"
+}

@@ -82,6 +82,10 @@ font-weight: bold;
   display:flex;
   flex-direction:column;
 }
+.about-me_info{
+  display:flex;
+  flex-direction: column;
+}
 .about-me_info-container{
   display:flex;
   flex-direction: column;
@@ -108,4 +112,21 @@ font-weight: bold;
 .about-me_info-paragraph{
   font: size 20px;
   margin-bottom: 28px;
+}
+.about-me_link{
+  font: size 20px;
+  color:#242424;
+  text-decoration:none;
+  padding:0 16px;
+}
+.about-me_image-container{
+  flex:1;
+  display:flex;
+  align-items:center;
+}
+.about-me_image{
+  width: 100%;
+  max-width: 600px;
+  margin:0 auto;
+  margin-top: 22px;
 }

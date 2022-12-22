@@ -10,16 +10,13 @@ h1,h2,h3,h4,h5,h6, span{
   text-align:center;
   line-height: 1.25;
 }
-
 h1{
 font-size: 36px;
 }
-
 p{
   line-height:1.5;
-  font-size: 16px;;
+  font-size: 16px;
 }
-
 li{
   list-style-type:none;
 }
@@ -29,7 +26,6 @@ li{
 .flex-1{
   flex:1;
 }
-
 .container{
   padding: 50px 0;
   margin-top: 60px;
@@ -178,4 +174,23 @@ font-weight: bold;
 }
 .language:hover .language_name{
   transform:scale(1);
+}
+
+/* PROJECTS */
+
+.project_img{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  align-items:center;
+}
+
+.project_wrapper{
+  display:flex;
+  box-shadow:0 20px 80px rgba(0,0,0,0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
 }

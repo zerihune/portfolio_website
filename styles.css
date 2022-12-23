@@ -27,14 +27,28 @@ a {
 .link_hover_effect:after{
  content:"";
  position:absolute;
- height:3px;
  background-color:black;
+ height:3px;
  width:0;
  bottom:-3px;
  right:0;
  transition:all 300ms ease;
 }
 .link_hover_effect:hover:after{
+  width:100%;
+  left:0;
+}
+.link_hover-effect:after{
+ content:"";
+ position:absolute;
+ background-color:white;
+ height:3px;
+ width:0;
+ bottom:-3px;
+ right:0;
+ transition:all 300ms ease;
+}
+.link_hover-effect:hover:after{
   width:100%;
   left:0;
 }

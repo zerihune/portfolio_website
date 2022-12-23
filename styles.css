@@ -178,6 +178,12 @@ font-weight: bold;
 
 /* PROJECTS */
 
+.project{
+  margin-top:90px;
+}
+.project:last-child{
+  margin-bottom:40px;
+}
 .project_img{
   display:flex;
   width:100%;

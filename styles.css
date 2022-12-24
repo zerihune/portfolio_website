@@ -335,7 +335,7 @@ font-weight: bold;
 .project_description-par,
 .project_description-link{
   text-align: left;
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 /* FOOTER */

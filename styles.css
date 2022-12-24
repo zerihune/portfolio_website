@@ -23,6 +23,10 @@ p{
 a {
   text-decoration:none;
   position:relative;
+  transition:opacity 300m ease;
+}
+a:hover{
+  opacity:0.7;
 }
 .link_hover_effect:after{
  content:"";
@@ -143,7 +147,7 @@ font-weight: bold;
   overflow:hidden;
   box-shadow:0 8px 24px rgb(250, 169, 204);
   margin-bottom: 20px;
-  animation: animate_profile-picture 800ms;
+  animation: animate_profile-picture 800ms 200ms backwards;
 }
 @keyframes animate_profile-picture{
   0%{
@@ -162,17 +166,31 @@ font-weight: bold;
 }
 .about-me_info-title{
   margin-bottom: 16px;
+  animation: fade-up 650ms 400ms backwards;
 }
 .about-me_info-paragraph{
   font: size 20px;
   margin-bottom: 28px;
+  animation: fade-up 650ms 600ms backwards;
 }
 .about-me_link{
   font: size 20px;
   color:#242424;
   text-decoration:none;
   padding:0 16px;
+  animation: fade-up 650ms 800ms backwards;
 }
+@keyframes fade-up{
+  0%{
+     opacity:0;
+     transform: translateY(40px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
 .about-me_image-container{
   flex:1;
   display:flex;
@@ -183,6 +201,16 @@ font-weight: bold;
   max-width: 600px;
   margin:0 auto;
   margin-top: 22px;
+  animation: fade-in 1200ms 800ms backwards;
+}
+
+@keyframes fade-in{
+  0%{
+     opacity:0;
+  }
+  100%{
+   opacity:1
+  }
 }
 
 /* TECHNOLOGY STACK */
